@@ -3,7 +3,7 @@
     --cinza-secundario: #c0c0c0;
     --botao-azul: #165bf7;
     --cor-de-fundo: #00030c;
-    --fonte-principal: "Roboto"
+    --fonte-principal: "Inter";
 }
 
 *{
@@ -20,7 +20,7 @@ body{
     background-image: url(Background.png);
     background-repeat: no-repeat;
     background-size: contain;
-    align-items: center ;
+    align-items: center;
     text-align: center;
 }
 
@@ -41,9 +41,8 @@ body{
 }
 
 .botão2{
-    background-color: transparent;
-    border: 2px solid white;
-   
+   background-color: transparent;
+   border: 2px solid white;
 }
 
 .container_aviso{
@@ -61,5 +60,30 @@ body{
 }
 
 .container_caixa{
-    margin: 0 6em 0 6em;
+    margin: 0 6em;
+}
+
+.secundario_imagem{
+    width: 80%;
+}
+
+.secundario{
+    align-items: center;
+    margin: 0 10em;
+}
+
+.descricao_titulo{
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--branco-principal);
+    margin-bottom: 0.1em;
+}
+
+.secundario_botão{
+    display: inline-block;
+    margin: 1em;
+}
+
+.container_discricao{
+    padding: 2em;
 }
